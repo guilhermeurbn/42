@@ -6,7 +6,7 @@
 /*   By: guilhermeurbano <guilhermeurbano@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 21:29:10 by guilhermeur       #+#    #+#             */
-/*   Updated: 2024/10/24 21:34:43 by guilhermeur      ###   ########.fr       */
+/*   Updated: 2024/10/24 21:43:14 by guilhermeur      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,6 @@ void set_point(t_point *point) {
 int main(void) {
     t_point point;
     set_point(&point);
-    printf("Ponto: (%d, %d)\n", point.x, point.y);  // Exibe as coordenada
+    printf("Ponto: (%d, %d)\n", point.x, point.y);
     return 0;
 }
