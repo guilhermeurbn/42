@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: guisanto <guisanto@student.42.fr>          +#+  +:+       +#+        */
+/*   By: guilhermeurbano <guilhermeurbano@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 15:35:53 by guilhermeur       #+#    #+#             */
-/*   Updated: 2024/10/24 12:28:08 by guisanto         ###   ########.fr       */
+/*   Updated: 2024/10/24 18:09:50 by guilhermeur      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ void	ft_print_numbers(void)
 		ft_putchar(i);
 		i++;
 	}
-	ft_putchar('\n');
 }
 /*int main()
 {
