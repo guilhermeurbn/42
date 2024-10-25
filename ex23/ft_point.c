@@ -3,23 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_point.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: guilhermeurbano <guilhermeurbano@studen    +#+  +:+       +#+        */
+/*   By: guisanto <guisanto@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 21:29:10 by guilhermeur       #+#    #+#             */
-/*   Updated: 2024/10/24 21:43:14 by guilhermeur      ###   ########.fr       */
+/*   Updated: 2024/10/25 12:16:54 by guisanto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_point.h"
-#include <stdio.h>
-void set_point(t_point *point) {
-    point->x = 42;
-    point->y = 21;
-}
+# include <stdio.h>
 
 int main(void) {
-    t_point point;
-    set_point(&point);
-    printf("Ponto: (%d, %d)\n", point.x, point.y);
-    return 0;
+	t_point point;
+
+	set_point(&point);
+	printf("x: %d\n", point.x);
+	printf("y: %d\n", point.y);
+
+	return 0;
 }

@@ -3,11 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_abs.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: guilhermeurbano <guilhermeurbano@studen    +#+  +:+       +#+        */
+/*   By: guisanto <guisanto@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 19:12:39 by guilhermeur       #+#    #+#             */
-/*   Updated: 2024/10/24 19:43:46 by guilhermeur      ###   ########.fr       */
+/*   Updated: 2024/10/25 12:18:21 by guisanto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+# ifndef FT_ABS_H
+# define FT_ABS_H
+
+#include <stdio.h>
+
 #define ABS(Value) ((Value) < 0 ? -(Value) : (Value))
+
+# endif
